@@ -1,7 +1,7 @@
 package com.example.user_service.model;
 
 public class User {
-    private int id;
+    private Long id;
     private String fullName;
     private String deliveryAddress;
     private String phoneNumber;
@@ -9,7 +9,7 @@ public class User {
 
     public User() {}
 
-    public User(int id, String fullName, String deliveryAddress, String phoneNumber, String email) {
+    public User(Long id, String fullName, String deliveryAddress, String phoneNumber, String email) {
         this.id = id;
         this.fullName = fullName;
         this.deliveryAddress = deliveryAddress;
@@ -18,8 +18,8 @@ public class User {
     }
 
     // Getters and Setters
-    public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
 
     public String getFullName() { return fullName; }
     public void setFullName(String fullName) { this.fullName = fullName; }
