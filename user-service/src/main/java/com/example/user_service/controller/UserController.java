@@ -20,10 +20,10 @@ public class UserController {
             case 2:
                 return new User(2, "Nikita Antsiferov", "ул. Пушкина, д.2, кв.2", "+79266666666", "2QueenMoncler2@gmail.com");
             default:
-                return new User(userId, "Пользователь " + userId,
-                        "Адрес пользователя " + userId,
-                        "+79160000000",
-                        "user" + userId + "@gmail.ru");
+                return new User(userId, "отсутствует информация",
+                        "отсутствует информация",
+                        "отсутствует информация",
+                        "отсутствует информация");
         }
     }
 }
